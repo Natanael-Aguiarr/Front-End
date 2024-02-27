@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tópico 2</title>
+</head>
+
+<body>
+    <h1>
+        Formulário / Matricula Escolar
+    </h1>
+    <form>
+        <fieldset>
+            <label for="nome"> <strong>Nome do Aluno</strong></label>
+            <input type="text" required> <br><br>
+            <label for="nome"> <strong>Nome da Mãe</strong></label>
+            <input type="text" required> <br><br>
+            <label for="nome"> <strong>Nome do Pai</strong></label>
+            <input type="text" required> <br><br>
+            <label for="data"> <strong>Data de Nascimento</strong></label>
+            <input type="date" required> <br><br>
+            <label for="email"> <strong>Email</strong></label>
+            <input type="email" required>
+            <label for="senha"> <strong>Senha</strong></label>
+            <input type="password" required minlength="8"><br><br>
+            <label for="numero"> <strong>Número de Telefone</strong></label>
+            <input type="number" required> <br><br>
+            <label for="file"> <strong>Histórico Escolar</strong></label>
+            <input type="file" required> <br><br>
+        </fieldset>
+        <fieldset>
+            <label for="doen"> <strong>Você tem alguma doença?</strong></label> <br><br>
+            <label><input type="radio" name="doen" value="sim">Sim
+            </label>
+            <label><input type="radio" name="doen" value="nao">Não
+            </label>
+            <label><input type="radio" name="doen" value="nao sei">Não sei
+            </label> <br><br>
+
+            <label for="genero"> <strong>Gênero</strong></label> <br><br>
+            <label><input type="radio" name="sex" value="mas">Masculino
+                <label><input type="radio" name="sex" value="fem">Feminino
+                    <br><br>
+                    <label for="serie"><strong>Série cursada esse ano</strong></label>
+                    <select id="serie">
+                        <option selected disabled value="Selecione">Selecione</option>
+                        <option>9° Fundamental</option>
+                        <option>1° Ensino Médio</option>
+                        <option>2° Ensino Médio</option>
+                        <option>3° Ensino Médio</option>
+                    </select> <br><br>
+
+                    <label for="materia"> <strong>Quais matérias você tem mais dificuldades?</strong></label> <br><br>
+                    <label><input type="checkbox" name="mate" value="sim">Matemática
+                <label><input type="checkbox" name="mate" value="sim">Português
+                <label><input type="checkbox" name="mate" value="sim">Física
+               <label><input type="checkbox" name="mate" value="sim">História
+              <label><input type="checkbox" name="mate" value="sim">Geografia
+             <label><input type="checkbox" name="mate" value="sim">Inglês
+        </fieldset><br>
+        <button class="botao" type="submit">Limpar</button>
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>

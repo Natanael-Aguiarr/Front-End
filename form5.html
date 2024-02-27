@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tópico 5</title>
+</head>
+<body>
+    <h1>
+        Formulário / Currículo Programador
+    </h1>
+    <form >
+        <fieldset>
+            <label for="nome"> <strong>Nome </strong></label>
+            <input type="text"required> <br><br>
+            <label for="nome"> <strong>Nome da Mãe</strong></label>
+            <input type="text"required> <br><br>
+            <label for="nome"> <strong>Nome do Pai</strong></label>
+            <input type="text"required> <br><br>
+            <label for="data"> <strong>Data de Nascimento</strong></label>
+            <input type="date"required> <br><br>
+            <label for="cpf"> <strong>Cpf</strong></label>
+            <input type="cpf"required maxlength="8" minlength="8"> <br><br>
+            <label for="email" > <strong>Email</strong></label>
+            <input type="email"required> <br><br>
+            <label for="senha" > <strong>Senha</strong></label>
+            <input type="password"required minlength="8"><br><br>
+            <label for="numero"> <strong>Número de Telefone</strong></label>
+            <input type="number"required> <br><br>
+            <label for="posição" > <strong>Quais linguagens de programação vôce sabe ?
+            </strong></label> <br><br>
+            <label ><input type="checkbox" name="ling" value="java">java
+             </label>
+             <label><input type="checkbox" name="ling" value="phyton">phyton
+             </label>
+             <label><input type="checkbox" name="ling" value="c">C
+             </label>
+             <label><input type="checkbox" name="ling" value="TypeScript">TypeScript
+             </label>
+             <label><input type="checkbox" name="ling" value="c++">C++
+             </label><br><br>
+             <label><input type="checkbox" name="ling" value="c#">C#
+             </label>
+             <label><input type="checkbox" name="ling" value="ruby">Ruby
+             </label>
+             <label><input type="checkbox" name="ling" value="php">PHP
+             </label>
+             <label><input type="checkbox" name="ling" value="Swift">Swift
+             </label>
+             <label><input type="checkbox" name="ling" value="JavaScript">JavaScript
+             </label><br><br>
+             <label for="dias"><strong>Qual tipo de programador vôce é ? </strong></label>
+                <select  id="dias">
+                    <option selected disabled value="Selecione">Selecione</option>
+                    <option>Full-stack</option>
+                    <option>Front-end</option>
+                    <option>Back-end</option>
+                    <option>Desenvolvedor de aplicativos móveis</option>
+                    <option>Desenvolvedor de jogos</option>
+                    <option>Desenvolvedor web</option>
+                </select>
+
+        </fieldset> <br>
+        <button class="botao" type="submit">Limpar</button>
+        <button class="botao" type="submit">Enviar</button>
+    </form>
+    
+    
+</body>
+</html>

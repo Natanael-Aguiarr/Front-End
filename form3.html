@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tópico 3</title>
+</head>
+
+<body>
+    <h1>
+        Formulário / Clube de Xadrez
+    </h1>
+    <form>
+        <fieldset>
+            <label for="nome"> <strong>Nome</strong></label>
+            <input type="text" required> <br><br>
+            <label for="data"> <strong>Data de Nascimento</strong></label>
+            <input type="date" required> <br><br>
+            <label for="email"> <strong>Email</strong></label>
+            <input type="email" required>
+            <label for="senha"> <strong>Senha</strong></label>
+            <input type="password" required minlength="8"><br><br>
+            <label for="numero"> <strong>Número de Telefone</strong></label>
+            <input type="number" required> <br><br>
+        </fieldset>
+        <fieldset>
+            <label for="estilo"><strong>Qual é o seu estilo de jogo?</strong></label> <br>
+            <label>
+                <input type="radio" name="xad" value="Posicional"> Posicional
+            </label>
+            <label>
+                <input type="radio" name="xad" value="Tático"> Tático
+            </label> <br> <br>
+            </div>
+            
+            
+            <label for="cor"><strong>Você prefere jogar com qual cor?</strong></label> <br>
+            <label>
+                <input type="radio" name="xadr" value="Brancas"> Brancas
+            </label>
+            <label>
+                <input type="radio" name="xadr" value="Pretas"> Pretas
+            </label> 
+         <br> <br>
+      
+            <label for="plataforma"><strong>Selecione sua plataforma favorita</strong></label> 
+            <select  id="plataforma">
+                <option selected disabled value="Selecione">Selecione</option>
+                <option>Chess.com</option>
+                <option>Lichess</option>
+                <option>Chess24</option>
+                <option>Chesstempo</option>
+                <option>Chess Universe</option>
+            </select>
+         <br> <br>
+
+            <label  for="aberturas"><strong>Quais aberturas você prefere jogar?</strong></label> <br> 
+            <input type="checkbox" name="abert" value="Ruy lopes"> Ruy lopes
+            <input type="checkbox" name="abert" value="Italiana"> Italiana
+            <input type="checkbox" name="abert" value="Escocesa"> Escocesa
+            <input type="checkbox" name="abert" value="Gambito do rei"> Gambito do rei
+            <input type="checkbox" name="abert" value="Gambito da dama"> Gambito da dama
+            <input type="checkbox" name="abert" value="Vienna"> Vienna
+            <input type="checkbox" name="abert" value="Inglesa"> Inglesa
+            <br><br>
+            
+            
+                <label for="defesas"><strong>Quais defesas você prefere jogar?</strong></label> <br>
+                <input type="checkbox" name="abertu" value="Siciliana"> Siciliana
+                <input type="checkbox" name="abertu" value="Francesa"> Francesa
+                <input type="checkbox" name="abertu" value="Caro kann"> Caro kann
+                <input type="checkbox" name="abertu" value="Grunfeld"> Grunfeld
+                <input type="checkbox" name="abertu" value="Escandinava"> Escandinava
+                <input type="checkbox" name="abertu" value="Eslava"> Eslava
+                <input type="checkbox" name="abertu" value="Nimzo-india"> Nimzo-india
+            <br> <br>
+        </fieldset>
+
+            <label for="texto"> <strong>Conte um pouco de sua história com o xadrez</strong></label> <br>
+            <textarea name="texto" id="texto" cols="80" rows="20" maxlength="300"></textarea>
+             <br>
+        <button type="submit">Limpar</button>
+        <button type="submit">Enviar</button>
+
+
+    </form>
+</body>
+
+</html>
