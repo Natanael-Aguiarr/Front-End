@@ -10,24 +10,29 @@
 
 <body>
     <h1>
-        Formulário / Matricula Escolar
+        Formulário
     </h1>
     <form>
         <fieldset>
-            <label for="nome"> <strong>Nome do Aluno</strong></label>
-            <input type="text" required> <br><br>
-            <label for="nome"> <strong>Nome da Mãe</strong></label>
-            <input type="text" required> <br><br>
-            <label for="nome"> <strong>Nome do Pai</strong></label>
-            <input type="text" required> <br><br>
+            <p>
+            <legend><strong>Matricula Escolar</strong></legend> </p>
+            <label for="nome1"> <strong>Nome do Aluno</strong></label>
+            <input type="text" id="nome1" placeholder="Digite o seu nome" required> 
+        
+            <p>
+            <label for="nome2"> <strong>Nome da Mãe</strong></label>
+            <input type="text" id="nome2" placeholder="Digite o nome da sua mãe" required> 
+        </p>
+            <label for="nome3"> <strong>Nome do Pai</strong></label>
+            <input type="text" id="nome3" placeholder="Digite o nome do seu pai" required> <br><br>
             <label for="data"> <strong>Data de Nascimento</strong></label>
             <input type="date" required> <br><br>
             <label for="email"> <strong>Email</strong></label>
-            <input type="email" required>
+            <input type="email" id="email" placeholder="Email" required>
             <label for="senha"> <strong>Senha</strong></label>
-            <input type="password" required minlength="8"><br><br>
-            <label for="numero"> <strong>Número de Telefone</strong></label>
-            <input type="number" required> <br><br>
+            <input type="password" id="senha" placeholder="Senha" required minlength="8"><br><br>
+            <label for="Teelfone"> <strong>Número de Telefone</strong></label>
+            <input type="number" id="Telefone" placeholder="Telefone" required> <br><br>
             <label for="file"> <strong>Histórico Escolar</strong></label>
             <input type="file" required> <br><br>
         </fieldset>
@@ -61,7 +66,7 @@
               <label><input type="checkbox" name="mate" value="sim">Geografia
              <label><input type="checkbox" name="mate" value="sim">Inglês
         </fieldset><br>
-        <button class="botao" type="submit">Limpar</button>
+        <button class="botao" type="reset">Limpar</button>
         <button class="botao" type="submit">Enviar</button>
     </form>
     <a href="topicos5.html" title="Voltar"><button type="submit">Voltar</button> </a>

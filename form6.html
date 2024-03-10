@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tópico 6</title>
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/000/550/705/original/soccer-ball-vector-icon.jpg"  type="image/x-icon">
+</head>
+<body >
+    
+    <fieldset>
+        <legend><strong>Fale Conosco</strong></legend> </p>
+        <p>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend><strong>Dados</strong></legend>
+                    <p>
+        <label for="nome"> <strong>Nome</strong></label>
+        <input type="text" id="nome" placeholder="Digite o seu nome" required> </p>
+        <p>
+        <label for="email" > <strong>Email</strong></label>
+        <input type="email" id="email" placeholder="Email" required> </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>Mensagem</strong></legend>
+            <p>
+                Assunto: <br>
+
+                <input type="radio" name="Assunto" value="0" checked>Pessoal
+                <input type="radio" name="Assunto" value="1">Público
+            </p>
+            <p>
+                Enviar para: <br>
+
+                <input type="checkbox" name="Presidente" id="Presidente">
+                <label for="copia">Presidente</label> <br>
+                <input type="checkbox" name="diretor" id="diretor" >
+                <label for="diretor">Diretor</label> <br>
+                
+            </p>
+            <p>
+                <label for="tempo">Quantos meses trabalhando na empresa?</label> <br>
+                <input type="number" id="tempo" required=""/>
+                </p>
+                <p>
+                    
+                <label for="nome">Data do ocorrido?</label> 
+                <input type="date" name="date" id="date" required=""/> 
+                </p>
+                <p>
+                     <label for="nome"><strong>Qual setor?</strong></label>
+            <select  id="UF" name="setor">
+                <option value="" >Selecione</option>
+                <option value="AC" >Compras</option>
+                <option value="AL" >Vendas</option>
+                <option value="AP" >Produção</option>
+                 </select> </p>
+                 
+                 <p>
+                    <label for="arquivo">Tem fotos?</label>
+                    <input type="file" id="fatos" name="fatos"> <br>
+                 </p>
+                 <p>
+                    <label for="mensagem">Escreva a mensagem</label>
+                    <textarea name="mensagem" id="mensagem"  rows="3"></textarea>
+                 </p>
+                 </fieldset>
+                 <p align="center">
+                    <input type="submit" name="Enivar" value="Enviar">
+                    <input type="reset" name="Limpar" value="Limpar">
+                    
+                 </p>
+                 </fieldset>
+                 </form>
+</body>
+</html>
